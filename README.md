@@ -1,1 +1,1 @@
-N8N - open source to automate processes using AI agents to deliver reliable solutions
+N8N - open source to automate processes using AI agents to deliver reliable solution.
