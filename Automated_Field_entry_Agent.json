@@ -1,0 +1,63 @@
+{
+  "name": "Automated Field entry Agent",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        60.203125,
+        60.1015625
+      ],
+      "id": "e435f9bb-a0c5-4327-9f5e-d92ed77e431f",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "cdf9b503-2b84-44d3-92f8-a19b6bc7aa42",
+              "name": "name",
+              "value": "Raj",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        260,
+        60
+      ],
+      "id": "ec9c8a67-55ec-45a8-aebe-cfbd307716d8",
+      "name": "Edit Fields"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "832098c9-0447-4cc0-ae2e-0de04533a9e2",
+  "meta": {
+    "instanceId": "0cc6d65d8cce75e4cffe4e315cc1d872e6928b3d6bfb70251706e40fae14d7e7"
+  },
+  "id": "NdVnab9YaIlEawmE",
+  "tags": []
+}
